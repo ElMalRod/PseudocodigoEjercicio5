@@ -1,0 +1,20 @@
+Algoritmo Ejercicio5
+	Definir x Como Entero
+	definir A Como Caracter
+	Mientras x<1000 Hacer
+		Escribir "Escriba M si es mujer y H si es hombre"
+		Leer A
+		Escribir "Ingrese su edad"
+		Leer N
+		Si A=="m" o A=="M" Entonces
+			Escribir "Mujer"
+		SiNo
+			Escribir "Hombre"
+		Fin Si
+		Si N>=18 Entonces
+			Escribir "Mayor de edad"
+		SiNo
+			Escribir "Menor de edad"
+		Fin Si
+	Fin Mientras
+FinAlgoritmo
